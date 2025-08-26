@@ -3,12 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--Carga de fuentes-->
-    <!---Cargar  estilos-->
-    <!--Carga JavaScriptimNu;;;--->
+     <!---Css-->
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-free-6.1.2-web/css/all.min.css">
+    <link rel="stylesheet" href="assets/fonts/montserrat/montserrat.css">
     <title>Fundacion Revive</title>
 </head>
 <body>
-    <h1>hey padrino </h1>
+    <!---Main Layout-->
+    <div class="layout">
+        <!--Menu de Navegacion-->
+         <nav class="menu">
+            <div class="menu__top">
+                <div class="menu__img">
+                <img src="assets/img/logo.png" alt="logo">
+            </div>
+            <div class="menu__hamburguer" id="hamburguer">  
+            <i class="fa-solid fa-bars"></i>
+            </div>
+            </div>
+            
+        <ul class="menu__list">
+            <li class="menu__option">
+                <a href="" class="menu__link">
+                    Inicio
+                </a>
+            </li>
+            <li class="menu__option">
+                <a href="" class="menu__link">
+                    Quienes Somos 
+                </a>
+            </li>
+            <li class="menu__option">
+                <a href="" class="menu__link">
+                    Programas
+                </a>
+            </li>
+            <li class="menu__option">
+                <a href="" class="menu__link">
+                    ESAL
+                </a>
+            </li>
+           <li class="menu__option">
+                <a href="#" class="menu__link">
+                    Contacto
+                </a>
+            </li>
+        </ul>
+        </nav>
+        <!-- Botón WhatsApp -->
+        <a href="https://wa.me/573001234567" target="_blank" class="btn-float whatsapp">
+        <i class="fab fa-whatsapp"></i>
+        </a>
+         <!-- Botón Donación -->
+        <a href="https://tusitio.com/donar" target="_blank" class="btn-float donate">
+        <i class="fas fa-hand-holding-heart"> DONA AHORA</i>
+        </a>
+
+        <div class="home__slider">
+            <div class="home__slider__item">
+                <img src="assets/img/1.png" alt="slider">
+            </div>
+            <div class="home__slider__item">
+                <img src="assets/img/2.png" alt="slider">
+            </div>
+            <div class="home__slider__item">
+                <img src="assets/img/3.png" alt="slider">
+            </div> 
+        </div>
+    </div>
 </body>
 </html>
